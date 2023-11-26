@@ -1,9 +1,7 @@
 
 function makeKingdomCard(data){
     const res = `<div class= "card">
-                    <h3>${data.name} (C: ${data.continent})</h3>
-                    <p> C: ${data.continent} </p>
-                    <p> Total: ${data.total} </p>
+                    <h4>(C${data.continent}) | ${data.name}: ${data.total}</h4>
                 </div>`
     return res;
 }
